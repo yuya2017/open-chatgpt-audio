@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ChatGPT 音声ボタン</title>
+  <style>
+    body {
+      width: 250px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    button {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      background-color: #4285f4;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #3367d6;
+    }
+    .shortcut {
+      font-size: 0.8em;
+      color: #666;
+      margin-top: 15px;
+    }
+    .settings {
+      text-align: center;
+      margin-top: 10px;
+    }
+    a {
+      color: #4285f4;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <button id="openChatGPT">ChatGPTを開く</button>
+  <button id="triggerVoiceButton">音声入力を起動</button>
+  
+  <div class="shortcut">
+    <p>ショートカットキー:</p>
+    <p>ChatGPTで音声入力: <b>Ctrl+K</b></p>
+    <p>グローバル起動: <b>Ctrl+K</b></p>
+  </div>
+  
+  <div class="settings">
+    <a href="#" id="openOptions">設定を開く</a>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

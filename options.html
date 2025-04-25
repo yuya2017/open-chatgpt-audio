@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ChatGPT 音声ボタン ショートカット - 設定</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    h1 {
+      color: #4285f4;
+    }
+    .info {
+      background-color: #f8f9fa;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    button {
+      background-color: #4285f4;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #3367d6;
+    }
+  </style>
+</head>
+<body>
+  <h1>ChatGPT 音声ボタン ショートカット - 設定</h1>
+  
+  <div class="info">
+    <p>ショートカットキーを変更するには、以下の手順に従ってください：</p>
+    <ol>
+      <li>Chrome の拡張機能ページ（chrome://extensions）を開きます</li>
+      <li>ページ下部の「キーボードショートカット」をクリックします</li>
+      <li>「ChatGPT 音声ボタン ショートカット」を探し、希望のショートカットキーを設定します</li>
+    </ol>
+  </div>
+  
+  <h2>その他の設定</h2>
+  <div>
+    <label>
+      <input type="checkbox" id="alwaysOpenNewWindow"> 常に新しいウィンドウでChatGPTを開く
+    </label>
+  </div>
+  
+  <div style="margin-top: 20px;">
+    <button id="saveBtn">保存</button>
+    <span id="status" style="margin-left: 10px;"></span>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>
